@@ -1,0 +1,114 @@
+.topnav-right{
+	float: right;
+}
+
+body{
+	background-color: #121112;
+}
+
+.navbar{
+	background-color: rgb(35, 37, 49);
+	border: none;
+	color: #FFF;
+}
+
+.content{
+	padding-top: 5%;
+	margin-left: 5%;
+}
+
+.page1{
+	font-size: 350%;
+	text-align: left;
+	background: -webkit-linear-gradient(rgb(205, 29, 63), rgb(246, 86, 52));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color:transparent;
+	width: 50%;
+}
+
+.conference{
+	text-align: left;
+	margin-top: 1%;
+	font-size: 120%;
+	color: rgb(216, 219, 230);
+}
+
+#customButton{
+	margin-top: 1%;
+	float: left;
+	font-size: 100%;
+	width: 200px;
+	padding-top: 8px; 
+	height: 40px;
+	background-color: rgb(53, 53, 53);
+	border: none;
+}
+
+.contentPage2{
+	margin-top: 2%;
+	margin-left: 4%;
+	margin-right: 10%;
+}
+
+img{
+	display: block;
+	padding-top: 1%; 
+	padding-bottom: 2%;
+	padding-left: 10%;
+	height: 300px;
+	width: 450px;
+}
+
+h3, h2{
+	background: -webkit-linear-gradient(rgb(205, 29, 63), rgb(246, 86, 52));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color:transparent;
+	padding-top: 3%;
+}
+
+h2{
+	text-align: center;
+}
+
+.pPage2{
+	color: #FFFFFF;
+	padding-top:  1%;
+	padding-bottom: 2%;
+	font-family: sans-serif;
+}
+
+@media and screen (max-width: 400px){
+	img{
+		float: bottom;
+	}
+}
+
+img.page3{
+	height: 290px;
+}
+
+.price{
+	text-align: center;
+	color: red;
+}
+
+.contentTicket{
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.title{
+	background-color: #363432;
+}
+
+.buy{
+	background-color: red; 
+	color: #FFF; 
+	text-align: center;
+	border: none;
+	width: 100%;
+}
+
+h4{
+	color: #a36d65;
+}

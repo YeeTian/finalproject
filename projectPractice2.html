@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Final Project</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/projectPractice1.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/projectPractice1.css">
+	<style>
+		body{
+			background-color: blueviolet;
+		}
+	</style>
+</head>
+
+<body>
+	<header class="text-center">	
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="index.html">User Requirement</a>
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav">
+					    <span class="icon-bar"></span>
+					    <span class="icon-bar"></span>
+					    <span class="icon-bar"></span>                        
+		    		</button> 
+				</div>
+
+				<div class="collapse navbar-collapse" id="nav">
+						<ul class="nav navbar-nav" role = "tablist">
+							<li><a href="index.html">HOME</a></li>
+							<li><a href="projectPractice1.html">User Requirement FAQs</a></li>
+							<li class="button1 active"><a href="#">BUY TICKETS</a></li>
+						</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<img src="workshop.jpg" style="height: 400px" alt="workshop" class="page3 col-lg-12 visible-lg">
+
+	<div class="container col-lg-4">
+		<div class="title">
+			<h2>NORMAL TICKET</h2>
+			<h4 class="price"> 150.000 VND</h4>
+		</div>
+		<br>
+		<p class="contentTicket">Whole-day participation <br>Foods and Drinks <br>
+			(Note: limited spaces, please book the seat as soon as possible)</p>
+		<br><br>
+		<button class="buy col-lg-12" id="normal" onclick="buyTicket('normal');">BOOK NOW</button>
+	</div>
+
+	<div class="container col-lg-4">
+		<div class="title">
+			<h2>STANDARD TICKET</h2>
+			<h4 class="price">300.000 VND</h4>
+		</div>
+		<br>
+		<p class="contentTicket">Whole-day participation <br>
+			Foods and Drinks<br>
+			Get slides from presenters<br>
+			Free discount voucher 50.000VND for any services</p>
+		<br>
+		<button class="buy col-lg-12" id="standard" onclick="buyTicket('standard');">BOOK NOW</button>
+	</div>
+
+	<div class="container col-lg-4">
+		<div class="title">
+			<h2>VIP TICKET</h2>
+			<h4 class="price">1.200.000 VND</h4>
+		</div>	
+		<p class="contentTicket">Whole-day participation <br>
+			VIP seat and free Foods and Drinks<br>
+			Free discount voucher 200.000VND for any services<br>
+			Get slides from presenters and get free support from supporters<br>
+			Get 1 free normal ticket <br>
+			(Note: limited spaces, please book the seat as soon as possible) <br></p>
+		<button class="buy col-lg-12" id="vip" onclick="buyTicket('vip');">BOOK NOW</button>
+	</div>
+</body>
+</html>
